@@ -7,6 +7,9 @@ if(typeof appList === 'undefined') {
     var appList = document.getElementsByName('apps')
 }
 
+/* Array of all apps
+** ["chrome","operaChromium","firefox","skype","pidgin","thunderbird","trillian","aim","itunes","vlc","aimp","foobar","winamp","musicbee","audacity","klitecodecs","gom","spotify","cccp","mediamonkey","handbrake","java8",".net4.6.2","silverlight","air","shockwave","paint.net","gimp","irfanview","xnview","inkscape","faststone","greenshot","sharex","foxit","libreoffice","sumatrapdf","cutepdf","pdfcreator","openoffice","essentials","avast","avg","malwarebytes","adaware","spybot2","avira","super","qbittorrent","emule","dropbox","googledrive","mozy","onedrive","sugarsync","evernote","googleearth","steam","keepass2","everything","nvda","teamviewer12","imgburn","realvnc","teracopy","cdburnerxp","revo","launchy","windirstat","glary","infrarecorder","classicstart","7zip","peazip","winrar","python","filezilla","notepadplusplus","jdk8","jdkx8","winscp","putty","winmerge","eclipse","vscode"]"
+*/ 
 // Check if desirables variable already declared
 if(typeof desirables === 'undefined') {
     // List all desired apps in ninite, modify accordingly
