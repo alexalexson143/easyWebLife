@@ -13,7 +13,12 @@ if(typeof appList === 'undefined') {
 // Check if desirables variable already declared
 if(typeof desirables === 'undefined') {
     // List all desired apps in ninite, modify accordingly
-    var desirables = ["chrome", "firefox", "vlc", "spotify", "paint.net", "sumatrapdf", "malwarebytes", "qbittorrent", "googledrive", "teamviewer12", "revo", "launchy", "windirstat", "7zip", "notepadplusplus", "putty", "vscode"]
+    
+    /*ACC*/
+    // var desirables = ["chrome", "firefox", "vlc", "spotify", "paint.net", "sumatrapdf", "malwarebytes", "qbittorrent", "googledrive", "teamviewer12", "revo", "launchy", "windirstat", "7zip", "notepadplusplus", "putty", "vscode"]
+    
+    /*KAO*/
+    var desirables = ["firefox", "chrome", "silverlight", "7zip", "putty", "notepadplusplus", "sumatrapdf", "revo", "teamviewer12", "qbittorrent", "vlc", "vscode", "googledrive", "spotify", "gimp", "dropbox", "libreoffice", "malwarebytes", "thunderbird"]
 }
 
 // Check all items as listed in desirables
