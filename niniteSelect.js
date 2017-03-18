@@ -22,15 +22,16 @@ if(typeof desirables === 'undefined') {
 }
 
 // Check all items as listed in desirables
-let index = 0
-for (length = appList.length; index < length; index++) {
+let installedApps = 0
+for (let index = 0, length = appList.length; index < length; index++) {
     let app = appList[index];
     if(desirables.indexOf(app.value) !== -1) {
         app.checked = true
+        ++installedApps
     } else {
         
         // Strict mode: ON
         app.checked = false
     }
 }
-alert(index)
+alert(installedApps)
