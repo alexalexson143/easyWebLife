@@ -18,7 +18,7 @@ if (typeof desirables === 'undefined') {
     // var desirables = ["chrome", "firefox", "vlc", "spotify", "paint.net", "sumatrapdf", "malwarebytes", "qbittorrent", "googledrive", "teamviewer12", "revo", "launchy", "windirstat", "7zip", "notepadplusplus", "putty", "vscode"]
 
     /*KAO*/
-    var desirables = ["firefox", "chrome", "silverlight", "7zip", "putty", "notepadplusplus", "sumatrapdf", "revo", "teamviewer12", "qbittorrent", "vlc", "vscode", "googledrive", "spotify", "gimp", "dropbox", "libreoffice", "malwarebytes", "thunderbird"]
+    var desirables = ["firefox", "chrome", "silverlight", "7zip", "putty", "notepadplusplus", "sumatrapdf", "revo", "teamviewer12", "qbittorrent", "vlc", "vscode", "googledrive", "spotify", "gimp", "dropbox", "libreoffice", "malwarebytes", "thunderbird", "java8"]
 }
 
 // Check all items as listed in desirables
