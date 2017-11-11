@@ -1,5 +1,12 @@
-/* Ninite Selector for Chrome version 1.00 */
+/* Ninite Selector for Chrome version 1.01 */
+/* November 11, 2017
 /* Type || Copy in console for automated selection */
+
+// Ad hoc retrieve
+// let appArr = []
+// document.getElementsByName('apps').forEach((app) => {
+//     appArr.push(app.value)
+// })
 
 // Check if appList variable already declared
 if (typeof appList === 'undefined') {
@@ -8,6 +15,7 @@ if (typeof appList === 'undefined') {
 }
 
 /* Array of all apps
+ ** 20171111 ["chrome", "operaChromium", "firefox", "skype", "pidgin", "thunderbird", "trillian", "itunes", "vlc", "aimp", "foobar", "winamp", "musicbee", "audacity", "klitecodecs", "gom", "spotify", "cccp", "mediamonkey", "handbrake", "java8", ".net4.7", "silverlight", "air", "shockwave", "krita", "blender", "paint.net", "gimp", "irfanview", "xnview", "inkscape", "faststone", "greenshot", "sharex", "foxit", "libreoffice", "sumatrapdf", "cutepdf", "pdfcreator", "openoffice", "essentials", "avast", "avg", "malwarebytes", "spybot2", "avira", "super", "qbittorrent", "dropbox", "googlebackupandsync", "mozy", "onedrive", "sugarsync", "evernote", "googleearth", "steam", "keepass2", "everything", "nvda", "teamviewer12", "imgburn", "realvnc", "teracopy", "cdburnerxp", "revo", "launchy", "windirstat", "glary", "infrarecorder", "classicstart", "7zip", "peazip", "winrar", "python", "filezilla", "notepadplusplus", "jdk8", "jdkx8", "winscp", "putty", "winmerge", "eclipse", "vscode"] 
  ** 20171008 ["chrome","operaChromium","firefox","skype","pidgin","thunderbird","trillian","itunes","vlc","aimp","foobar","winamp","musicbee","audacity","klitecodecs","gom","spotify","cccp","mediamonkey","handbrake","java8",".net4.7","silverlight","air","shockwave","krita","blender","paint.net","gimp","irfanview","xnview","inkscape","faststone","greenshot","sharex","foxit","libreoffice","sumatrapdf","cutepdf","pdfcreator","openoffice","essentials","avast","avg","malwarebytes","spybot2","avira","super","qbittorrent","dropbox","googlebackupandsync","mozy","onedrive","sugarsync","evernote","googleearth","steam","keepass2","everything","nvda","teamviewer12","imgburn","realvnc","teracopy","cdburnerxp","revo","launchy","windirstat","glary","infrarecorder","classicstart","7zip","peazip","winrar","python","filezilla","notepadplusplus","jdk8","jdkx8","winscp","putty","winmerge","eclipse","vscode"]
  ** OLD -> ["chrome","operaChromium","firefox","skype","pidgin","thunderbird","trillian","aim","itunes","vlc","aimp","foobar","winamp","musicbee","audacity","klitecodecs","gom","spotify","cccp","mediamonkey","handbrake","java8",".net4.6.2","silverlight","air","shockwave","paint.net","gimp","irfanview","xnview","inkscape","faststone","greenshot","sharex","foxit","libreoffice","sumatrapdf","cutepdf","pdfcreator","openoffice","essentials","avast","avg","malwarebytes","adaware","spybot2","avira","super","qbittorrent","emule","dropbox","googledrive","mozy","onedrive","sugarsync","evernote","googleearth","steam","keepass2","everything","nvda","teamviewer12","imgburn","realvnc","teracopy","cdburnerxp","revo","launchy","windirstat","glary","infrarecorder","classicstart","7zip","peazip","winrar","python","filezilla","notepadplusplus","jdk8","jdkx8","winscp","putty","winmerge","eclipse","vscode"]
  */
@@ -19,7 +27,8 @@ if (typeof desirables === 'undefined') {
     // var desirables = ["chrome", "firefox", "vlc", "spotify", "paint.net", "sumatrapdf", "malwarebytes", "qbittorrent", "googledrive", "teamviewer12", "revo", "launchy", "windirstat", "7zip", "notepadplusplus", "putty", "vscode"]
 
     /*KAO*/
-    var desirables = ["skype", "firefox", "chrome", "silverlight", "7zip", "putty", "notepadplusplus", "sumatrapdf", "revo", "teamviewer12", "qbittorrent", "vlc", "vscode", "googlebackupandsync", "spotify", "gimp", "dropbox", "libreoffice", "malwarebytes", "thunderbird", "java8", "steam"]
+    // 22 apps
+    var desirables = ["skype", "firefox", "chrome", "silverlight", "7zip", "putty", "notepadplusplus", "sumatrapdf", "revo", "teamviewer12", "qbittorrent", "vlc", "vscode", "googlebackupandsync", "spotify", "dropbox", "libreoffice", "malwarebytes", "thunderbird", "java8", "steam", "windirstat"]
 }
 
 // Check all items as listed in desirables
